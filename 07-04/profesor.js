@@ -27,7 +27,7 @@ async function comments(postId){
 
 async function post(url,data){
     try {
-        let request = await +fetch(url,{
+        let request = await fetch(url,{
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
